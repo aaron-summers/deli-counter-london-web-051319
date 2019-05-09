@@ -14,9 +14,6 @@ end
 
 def take_a_number(name, katz_deli)
   
-  list = []
-  counter = 1
-  
-  
+  katz_deli << 
 
 end
