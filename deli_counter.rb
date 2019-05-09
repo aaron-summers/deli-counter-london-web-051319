@@ -21,7 +21,7 @@ def now_serving(katz_deli)
   counter = 0
   if katz_deli.length >= 1
     puts "Currently serving #{katz_deli[counter]}."
-    
+    counter += 1
   else
     puts "There is nobody waiting to be served!"
   end
