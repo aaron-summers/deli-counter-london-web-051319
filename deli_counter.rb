@@ -19,7 +19,7 @@ end
 
 def now_serving(katz_deli)
   
-  if katz_deli >= 1
+  if katz_deli.length >= 1
     puts "Currently serving #{katz_deli}."
     
   else
